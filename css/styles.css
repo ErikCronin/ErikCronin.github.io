@@ -1,0 +1,48 @@
+/* Table of Contents
+_______________________________________
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+_______________________________________ */
+
+/* General Content
+_______________________________________ */
+.main{padding-top:3%;}
+.row{padding: 2% 0;}
+.green{background-color: #7accc8;}
+
+/* Typography
+_______________________________________ */
+body{
+  font-family:'Abel',sans-serif;
+  font-size: 1.5em;
+  color:#000;
+}
+
+h2{
+  font-family: 'Satisfy', cursive;
+  font-size: 3em;
+  margin: 0.67em;
+}
+
+h2.bio{color: #3f7f7c;}
+p.bio{color: #fff;}
+
+/* Header & Navigation
+_______________________________________ */
+header.main_nav{
+  padding: 1% 0;
+  display: block;
+}
+
+/* Images & Media
+_______________________________________ */
+
+/* Footer
+_______________________________________ */
+
+/* Media Queries
+_______________________________________ */
