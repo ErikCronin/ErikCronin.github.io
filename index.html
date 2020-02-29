@@ -50,37 +50,37 @@
 <div class="container main">
   <div class="row">
     <div class="four columns portfolio">
-      <img src="images/backpacker.jpg" alt=""/>
+      <a class="image-link" href="images/backpacker.jpg"><img src="images/backpacker.jpg" alt=""/></a>
     </div>
     <div class="four columns portfolio">
-      <img src="images/desert_cycle.jpg" alt=""/>
+      <a class="image-link" href="images/desert_cycle.jpg"><img src="images/desert_cycle.jpg" alt=""/></a>
     </div>
     <div class="four columns portfolio">
-      <img src="images/italy_bikes.jpg" alt=""/>
+      <a class="image-link" href="images/italy_bikes.jpg"><img src="images/italy_bikes.jpg" alt=""/></a>
     </div>
   </div>
 
   <div class="row">
     <div class="four columns portfolio">
-      <img src="images/on_safari.jpg" alt=""/>
+      <a class="image-link" href="images/on_safari.jpg"><img src="images/on_safari.jpg" alt=""/></a>
     </div>
     <div class="four columns portfolio">
-      <img src="images/overlook_mtn.jpg" alt=""/>
+      <a class="image-link" href="images/overlook_mtn.jpg"><img src="images/overlook_mtn.jpg" alt=""/></a>
     </div>
     <div class="four columns portfolio">
-      <img src="images/paris_couple.jpg" alt=""/>
+      <a class="image-link" href="images/paris_couple.jpg"><img src="images/paris_couple.jpg" alt=""/></a>
     </div>
   </div>
 
   <div class="row" style="margin-bottom: 10%">
     <div class="four columns portfolio">
-      <img src="images/single_rider.jpg" alt=""/>
+      <a class="image-link" href="images/single_rider.jpg"><img src="images/single_rider.jpg" alt=""/></a>
     </div>
     <div class="four columns portfolio">
-      <img src="images/sunset_beach.jpg" alt=""/>
+      <a class="image-link" href="images/sunset_beach.jpg"><img src="images/sunset_beach.jpg" alt=""/></a>
     </div>
     <div class="four columns portfolio">
-      <img src="images/toes_sand.jpg" alt=""/>
+      <a class="image-link" href="images/toes_sand.jpg"><img src="images/toes_sand.jpg" alt=""/></a>
     </div>
   </div>
 </div><!--Container-->
@@ -123,5 +123,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!-- Magnific Popup core JS file -->
 <script src="scripts/Magnify_Popup.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.image-link').magnificPopup({type:'image'});
+  });
+</script>
 </body>
 </html>
