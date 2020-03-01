@@ -106,11 +106,12 @@
   <div class="container">
     <div class="row twelve columns">
       <ul class="social">
-        <li class="github"><a href="#"><i class="fab fa-github"></i></li>
-        <li class="linkedin"><a href="#"><i class="fab fa-linkedin"></i></li>
+        <li class="github"><a href="https://github.com/ErikCronin" target="_blank"><i class="fab fa-github"></i></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/erik-cronin-b14795117/" target="_blank"><i class="fab fa-linkedin"></i></li>
       </ul>
     </div>
     <div class="row twelve columns">
+      <p class="thanks">Created with help from Justin Seeley through LinkedIn Learning.</p>
       <p class="copyright">&copy; 2020 Erik Cronin. All Rights Reserved.</p>
     </div>
   </div>
@@ -137,7 +138,7 @@
       // By default it looks for an image tag:
       opener: function(openerElement) {
         // openerElement is the element on which popup was initialized, in this case its <a> tag
-        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        // you don't need to add "opener" option if this code matches your needs, it's default one.
         return openerElement.is('img') ? openerElement : openerElement.find('img');
       }
     }

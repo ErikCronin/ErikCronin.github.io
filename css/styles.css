@@ -95,6 +95,12 @@ p.copyright{
   font-size: 1em;
 }
 
+p.thanks{
+  text-align: center;
+  color: #8e8d8a;
+  font-size: 1em;
+}
+
 /* Media Queries
 _______________________________________ */
 /* Larger than mobile */
